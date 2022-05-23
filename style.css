@@ -101,7 +101,7 @@ h1 {
 
 main {
     background-color: blueviolet;
-    height: 3500px;
+    height: 3470px;
 }
 
 .container-main {
@@ -219,30 +219,44 @@ h5 {
 
 .container-sub-main {
     width: 100%;
-    height: 500px;
     background-color:palegoldenrod;
     margin-top: 100px;
+    height: 400px;
+    
+    
 }
 
 .sub-main-col {
-    display: inline-block;
+    display: block;
     width: calc(100% / 3);
     background-color: aqua;
+    height: 100%;
     border: 1px solid black;
 }
 
-.sub-main-card {
-    border: 1px solid black;
-    width: 50%;
+
+.sub-main-row { 
+    width: 100%;
     height: 50%;
-    background-repeat: no-repeat;
-    background-position: 0%;
-}
-
-.sub-main-colonna-centrale {
-    padding: 30px;
+    background-color: red;
+    border: 1px solid black;
     
 }
+
+.quadrato-left {
+    width: 50%;
+    height: 100%;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+.quadrato-right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(34, 151, 16);
+    border: 1px solid black;
+}
+    
 
 .citazione {
     font-size: 12px;
@@ -253,7 +267,29 @@ h5 {
     width: 50%;
 }
 
+/*End-main*/
 
+
+
+
+.end-main-container {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.porta-dropbox {
+    display: inline-block;
+    width: 50%;
+    font-size: 25px;
+}
+
+.inizia {
+
+    background-color: white;
+    padding: 5 15px;
+    font-size: 12px;
+}
 
 /*Footer*/
 
