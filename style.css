@@ -13,8 +13,20 @@ body {
 
 /*Utilities*/
 
+.relative-position {
+    position: relative;
+}
+
 .flex {
     display: flex;
+}
+
+.bottone 
+{
+    background-color: rgb(1, 135, 252);
+    color: white;
+    padding: 5px 5px;
+    font-size: 12px;
 }
 
 /*Header*/
@@ -26,29 +38,59 @@ header {
 }
 
 nav {
-    height: 100px;
+    height: 45px;
     background-color: chartreuse;
 }
 
-.container-ul{
+.container-nav{
     justify-content: space-between;
     align-items: center;
 }
 
 .container-ul li{
-    margin: 0 10px;
+    margin: 0 15px;
 }
+
 
 
 
 .ul-nav {
     list-style-type: none;
+    width: 50%;
 }
 
 
+
+
 .container-header {
-    max-width: 1400px;
+    max-width: 1000px;
     margin:0 auto;
+    background-color: white;
+    height: 80%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.blocco-descrizione {
+    height: 100%;
+    width:
+    }
+
+.paragrafetto {
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    font-size: 12px;
+}
+
+.immagine-enorme {
+        height: 300px;
+        width: auto;
+        position: absolute;
 }
 
 
