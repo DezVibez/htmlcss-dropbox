@@ -101,7 +101,7 @@ h1 {
 
 main {
     background-color: blueviolet;
-    height: 1600px;
+    height: 3000px;
 }
 
 .container-main {
@@ -147,7 +147,7 @@ h2 {
 }
 
 .partner {
-    height: 100%;
+    width: 70%;
 }
 
 .partner-side {
@@ -169,8 +169,54 @@ font-size: 16px;}
 }
 
 
+/*Mid-Main*/
 
-/*Sub Main*/
+.section-box {
+    height: 1000px;
+    background-color: crimson;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.card-container {
+    margin: 30px 0;
+    background-color: gold;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+    height: 100%    ;
+    border: 1px solid black;
+    background-color: lawngreen;
+}   
+
+.img-card {
+    width: 100%;
+}
+
+h5 {
+    margin: 20px 0;
+}
+
+.p-card {
+    font-size: 12px;
+}
+
+.titolone {
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.link-clienti {font-size: 14px;}
+
+
+ /*Sub Main*/
 
 .container-sub-main {}
 
