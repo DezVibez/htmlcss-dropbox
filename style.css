@@ -101,12 +101,11 @@ h1 {
 
 main {
     background-color: blueviolet;
-    height: 3000px;
+    height: 3500px;
 }
 
 .container-main {
     padding-top: 80px;
-    height: 1000px;
     max-width: 50%;
     margin: 0 auto;
     background-color: coral;
@@ -218,7 +217,42 @@ h5 {
 
  /*Sub Main*/
 
-.container-sub-main {}
+.container-sub-main {
+    width: 100%;
+    height: 500px;
+    background-color:palegoldenrod;
+    margin-top: 100px;
+}
+
+.sub-main-col {
+    display: inline-block;
+    width: calc(100% / 3);
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.sub-main-card {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+.sub-main-colonna-centrale {
+    padding: 30px;
+    
+}
+
+.citazione {
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+.design {
+    width: 50%;
+}
+
 
 
 /*Footer*/
