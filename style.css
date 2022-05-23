@@ -25,7 +25,7 @@ body {
 {
     background-color: rgb(1, 135, 252);
     color: white;
-    padding: 5px 5px;
+    padding: 7px 7px;
     font-size: 12px;
 }
 
@@ -64,6 +64,7 @@ nav {
 
 .container-header {
     max-width: 1000px;
+    height: 600px;
     margin:0 auto;
     background-color: white;
     height: 80%;
@@ -76,21 +77,29 @@ h1 {
 }
 
 .blocco-descrizione {
-    height: 100%;
-    width:
+    height: 60%;
     }
 
 .paragrafetto {
     display: inline-block;
-    height: 30%;
+    height: 40%;
     width: 30%;
     font-size: 12px;
 }
 
-.immagine-enorme {
-        height: 300px;
-        width: auto;
-        position: absolute;
+#annulla {
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+    font-size: 14px;
+}
+
+.jumbo-image {
+    height: 329px;
+    width: auto;
+    position: absolute;
+    bottom: -44px;
+    right: 100px;
 }
 
 
