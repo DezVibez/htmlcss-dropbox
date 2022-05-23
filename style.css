@@ -295,5 +295,64 @@ h5 {
 
 footer {
     background-color: black;
-    height: 600px;
+    height: 800px;
+}
+
+/*Footer-top*/
+
+.footer-top {
+    height: 50%;
+    background-color: red;
+}
+
+.footer-bottom {
+    height: 50%;
+    background-color: yellow;
+}
+
+h6 {
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.container-footer-top {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.ul-footer-top {
+    margin-top: 50px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+.li-footer-top {
+    border-top:  1px solid black;
+    padding: 25px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*Footer-bottom*/
+
+.container-footer-bottom {
+    width: 70%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.ul-footer-bottom {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.no-lyst-type{
+    list-style-type: none;
+}
+
+.ul-bold {
+    font-weight: 300;
+    font-size: 20px;
 }
