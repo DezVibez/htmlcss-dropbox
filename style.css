@@ -9,6 +9,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Colors*/
+
+/*Utilities*/
+
+.flex {
+    display: flex;
+}
+
 /*Header*/
 
 
@@ -20,6 +28,21 @@ header {
 nav {
     height: 100px;
     background-color: chartreuse;
+}
+
+.container-ul{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-ul li{
+    margin: 0 10px;
+}
+
+
+
+.ul-nav {
+    list-style-type: none;
 }
 
 
