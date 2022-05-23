@@ -341,18 +341,22 @@ h6 {
     width: 70%;
     margin: 0 auto;
     background-color: aqua;
+    
 }
 
 .ul-footer-bottom {
     list-style-type: none;
     justify-content: space-between;
+    padding: 50px 0;
+    line-height: 2.5;
 }
 
 .no-lyst-type{
     list-style-type: none;
+    font-size: 12px;
 }
 
 .ul-bold {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 20px;
 }
