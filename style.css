@@ -356,6 +356,7 @@ h5 {
 .sub-main-row [src] {
     position: relative;
     display: inline-block;
+    fill: white;
 }
 
 /*Posizioni relative img nei blocchi*/
@@ -442,6 +443,8 @@ h5 {
     width: 50%;
 }
 
+
+
 /*End-main*/
 
 
@@ -508,6 +511,11 @@ h6 {
     padding: 25px 0;
     font-size: 14px;
     font-weight: 600;
+    
+}
+
+.freccettina-footer {
+    margin-left: 260px;
 }
 
 /*Footer-bottom*/
@@ -534,6 +542,13 @@ h6 {
 .ul-bold {
     font-weight: 600;
     font-size: 20px;
+}
+
+.lingua {
+    height: 30px;
+    display: inline-block;
+    padding: 30px 0;
+    border-top: 1px solid white;
 }
 
 
