@@ -5,7 +5,7 @@
 
 body {
     background-color: aqua;
-    height: 1400px;
+    height: 4000px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,21 +39,30 @@ header {
 
 nav {
     height: 45px;
+    width: 100%;
     background-color: chartreuse;
 }
+
+.logo-small {
+    height: 70%;
+    display: inline-block;
+    
+}
+
 
 .container-nav{
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
-.container-ul li{
+.container-nav .ul-nav li{
     margin: 0 15px;
+    font-size: 14px;
 }
 
 .ul-nav {
     list-style-type: none;
-    width: 50%;
 }
 
 .container-header {
@@ -360,3 +369,4 @@ h6 {
     font-weight: 600;
     font-size: 20px;
 }
+
