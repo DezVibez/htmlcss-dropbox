@@ -2,6 +2,7 @@
     padding:0;
     box-sizing: border-box;}
 
+a {text-decoration:;}
 
 body {
     background-color: aqua;
@@ -176,8 +177,8 @@ h2 {
 }
 
 .top-row {
-    height: 50%;
-    justify-content: space-around;
+    height: 300px;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -186,27 +187,26 @@ h2 {
     font-size: 20px;
 }
 
-.bottone-column {
-    margin-top: 20px;
-}
-
 .righetta {
     display: inline-block;
     height: 1px;
     background-color: gray;
     width: 20%;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .punti-salienti {
     font-size: 14px;
     font-weight: 600;
+    display: block;
 }
 
 .lista-column li{
     list-style-type: none;
     margin: 10px 0;
 }
+
+/*Fine colonne*/
 
 .central-main-block {
     margin-top: 30px;
@@ -215,6 +215,44 @@ h2 {
     background-color: white;
     border: 1px solid black;
 }
+
+.top-central-main-block {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+.bottom-central-main-block {
+    padding: 30px;
+}
+
+.enterprise {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+}
+
+.bottone-central-main {
+    
+}
+
+.contatta-vendite {
+    font-weight: 600;
+    font-size: 12px;
+    display: block;
+}
+
+.spiegazione-main-block{
+    display: inline-block;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+
 
 .dropbox-partners {
     margin: 60px 0;
