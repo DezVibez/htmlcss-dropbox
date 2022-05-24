@@ -5,12 +5,26 @@
 a {text-decoration:;}
 
 body {
-    background-color: aqua;
-    height: 4000px;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
-/*Colors*/
+
+header 
+
+.verdino {background-color: rgb(162,211,155)}
+.azzurro {background-color:rgb(0,148,206)}
+.rosso-acceso {background-color:rgb(254,28,28)}
+.porpora {background-color:rgb(98,8,43)}
+
+.grande {background-color:rgb(245,245,245)}
+
+.rosso-spento {background-color:rgb(213,1,31)}
+.blu {background-color:rgb(14,36,129)}
+.giallo {background-color:rgb(255,216,47)}
+.grigio-azzurro {background-color:rgb(180,208,231)}
+
+
 
 /*Utilities*/
 
@@ -38,14 +52,14 @@ body {
 
 
 header {
-    background-color: blue;
+    background-color: rgb(180,208,231);
     height: 600px;
 }
 
 nav {
     height: 45px;
     width: 100%;
-    background-color: chartreuse;
+    background-color: white;
 }
 
 .logo-small {
@@ -74,7 +88,7 @@ nav {
     max-width: 1000px;
     height: 600px;
     margin:0 auto;
-    background-color: white;
+    background-color: rgb(180,208,231);
     height: 80%;
 }
 
@@ -102,6 +116,13 @@ h1 {
     font-size: 14px;
 }
 
+.freccia-giu {
+    position: relative;
+    bottom: -110px;
+    left: 5px;
+    font-size: 35px;
+}
+
 .jumbo-image {
     height: 329px;
     width: auto;
@@ -114,15 +135,15 @@ h1 {
 /*Main*/
 
 main {
-    background-color: blueviolet;
-    height: 3470px;
+    background-color: white;
+    
 }
 
 .container-main {
     padding-top: 80px;
     max-width: 50%;
     margin: 0 auto;
-    background-color: coral;
+    background-color: white;
 }
 
 h2 {
@@ -252,7 +273,7 @@ h2 {
     margin: 60px 0;
     width: 100%;
     height: 400px;
-    background-color: cyan;
+    background-color: white;
     justify-content: space-around;
 }
 
@@ -283,7 +304,7 @@ font-size: 16px;}
 
 .section-box {
     height: 1000px;
-    background-color: crimson;
+    background-color: white;
 }
 
 h4 {
@@ -301,7 +322,7 @@ h4 {
     width: calc(100% / 3);
     height: 100%    ;
     border: 1px solid black;
-    background-color: lawngreen;
+    background-color: white;
 }   
 
 .img-card {
@@ -330,9 +351,8 @@ h5 {
 
 .container-sub-main {
     width: 100%;
-    background-color:palegoldenrod;
     margin-top: 100px;
-    height: 425px;
+    height: 375px;
     
     
 }
@@ -340,23 +360,20 @@ h5 {
 .sub-main-col {
     display: block;
     width: calc(100% / 3);
-    background-color: aqua;
     height: 100%;
-    border: 1px solid black;
+    
 }
 
 
 .sub-main-row { 
     width: 100%;
     height: 50%;
-    background-color: red;
-    border: 1px solid black;
+    
 }
 
 .sub-main-row [src] {
     position: relative;
     display: inline-block;
-    fill: white;
 }
 
 /*Posizioni relative img nei blocchi*/
@@ -417,15 +434,13 @@ h5 {
 .quadrato-left {
     width: 50%;
     height: 100%;
-    background-color: darkorange;
-    border: 1px solid black;
+    
 }
 
 .quadrato-right {
     width: 50%;
     height: 100%;
-    background-color: rgb(34, 151, 16);
-    border: 1px solid black;
+    
 }
 
 .contenuto-central-column {
@@ -447,25 +462,31 @@ h5 {
 
 /*End-main*/
 
-
+.container-imperativo {
+    background-color: rgb(180,208,231);
+    height: 200px;
+}
 
 
 .end-main-container {
     justify-content: space-between;
     align-items: center;
-
-}
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 60px;
+    }
 
 .porta-dropbox {
     display: inline-block;
     width: 50%;
     font-size: 25px;
+    font-weight: 600;
 }
 
 .inizia {
-
+    display: inline-block;
     background-color: white;
-    padding: 5 15px;
+    padding: 5px 15px;
     font-size: 12px;
 }
 
@@ -473,19 +494,23 @@ h5 {
 
 footer {
     background-color: black;
-    height: 800px;
 }
 
 /*Footer-top*/
 
+.white {
+    background-color: white;
+    
+}
+
 .footer-top {
     height: 50%;
-    background-color: red;
+    background-color: white;
 }
 
 .footer-bottom {
     height: 50%;
-    background-color: yellow;
+    color: white;
 }
 
 h6 {
@@ -497,7 +522,9 @@ h6 {
 .container-footer-top {
     width: 60%;
     margin: 0 auto;
-    
+    background-color: white;
+    padding-bottom: 70px;
+
 }
 
 .ul-footer-top {
@@ -523,8 +550,8 @@ h6 {
 .container-footer-bottom {
     width: 70%;
     margin: 0 auto;
-    background-color: aqua;
-    
+    background-color: black;
+    color: white;
 }
 
 .ul-footer-bottom {
@@ -549,6 +576,7 @@ h6 {
     display: inline-block;
     padding: 30px 0;
     border-top: 1px solid white;
+    font-size: 12px;
 }
 
 
