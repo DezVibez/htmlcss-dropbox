@@ -234,10 +234,6 @@ h2 {
     width: 70%;
 }
 
-.bottone-central-main {
-    
-}
-
 .contatta-vendite {
     font-weight: 600;
     font-size: 12px;
@@ -250,8 +246,6 @@ h2 {
     font-size: 12px;
     margin-top: 30px;
 }
-
-
 
 
 .dropbox-partners {
@@ -338,7 +332,7 @@ h5 {
     width: 100%;
     background-color:palegoldenrod;
     margin-top: 100px;
-    height: 400px;
+    height: 425px;
     
     
 }
@@ -357,8 +351,66 @@ h5 {
     height: 50%;
     background-color: red;
     border: 1px solid black;
-    
 }
+
+.sub-main-row [src] {
+    position: relative;
+    display: inline-block;
+}
+
+/*Posizioni relative img nei blocchi*/
+
+.designit{
+    width: 50%;
+    top: 43%;
+    left: 25%;
+}
+
+.arizona-university {
+    width: 58%;
+    top: 30%;
+    left: 24%;
+}
+
+.florida-university {
+    width: 58%;
+    top: 41%;
+    left: 21%;
+}
+
+.topps {
+    width: 58%;
+    top: 37%;
+    left: 21%;
+}
+
+.bicycle {
+    width: 58%;
+    top: 37%;
+    left: 21%;
+}
+
+.hearst {
+    width: 58%;
+    top: 45%;
+    left: 21%;
+}
+
+.lonely-planet {
+    width: 58%;
+    top: 36%;
+    left: 21%;
+}
+
+.clear-channel {
+    width: 58%;
+    top: 29%;
+    left: 21%;
+}
+
+
+
+
 
 .quadrato-left {
     width: 50%;
