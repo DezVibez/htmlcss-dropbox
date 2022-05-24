@@ -163,6 +163,18 @@ h2 {
 
 .main-column-content {
     padding: 10px;
+    font-size: 12px;
+}
+
+.top-row {
+    height: 50%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.scelta-piano {
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .righetta {
@@ -170,10 +182,17 @@ h2 {
     height: 1px;
     background-color: gray;
     width: 20%;
+    margin-bottom: 30px;
 }
 
-.lista-column {
+.punti-salienti {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lista-column li{
     list-style-type: none;
+    margin: 10px 0;
 }
 
 .central-main-block {
