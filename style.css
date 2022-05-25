@@ -130,11 +130,11 @@ h1 {
 }
 
 .jumbo-image {
-    height: 329px;
+    height: 388px;
     width: auto;
     position: absolute;
-    bottom: -44px;
-    right: 100px;
+    bottom: -101px;
+    right: -9px;
 }
 
 
