@@ -10,6 +10,7 @@ body {
 }
 
 
+/*Colori Quadratoni*/
 
 .verdino {background-color: rgb(162,211,155)}
 .azzurro {background-color:rgb(0,148,206)}
@@ -46,6 +47,11 @@ body {
 .pix12 {
     font-size: 12px;
 }
+
+.blu-check{
+    color: rgb(1, 135, 252);
+}
+
 
 /*Header*/
 
@@ -192,7 +198,7 @@ h2 {
 .azienda-o-privato {
     display: inline-block;
     text-align: center;
-    border: solid 1px black;
+    border-bottom: solid 1px black;
     width: 100%;
     font-size: 10px;
     padding: 7px;
