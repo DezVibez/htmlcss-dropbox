@@ -59,6 +59,12 @@ nav {
     height: 45px;
     width: 100%;
     background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 1;
+    box-shadow: black 0px 0px 9px 0px;
 }
 
 .logo-small {
@@ -84,6 +90,8 @@ nav {
 }
 
 .container-header {
+    position: relative;
+    top: 45px;
     max-width: 970px;
     height: 600px;
     margin:0 auto;
@@ -93,7 +101,6 @@ nav {
 
 h1 {
     font-size: 60px;
-    margin-top: 45px;
     margin-bottom: 30px;
 }
 
@@ -177,7 +184,7 @@ h2 {
 
 .main-column {
     width: 198px;
-    height: 600px;
+    height: 615px;
     background-color: white;
     border: 1px solid black;
 }
