@@ -14,16 +14,30 @@ body {
 /*Colori Quadratoni*/
 
 .verdino {background-color: rgb(162,211,155)}
+.verdino:hover {border-color: rgb(182,231,175)}
+
 .azzurro {background-color:rgb(0,148,206)}
+.azzurro:hover {border-color: rgb(20,168,226)}
+
 .rosso-acceso {background-color:rgb(254,28,28)}
+.rosso-acceso:hover {border-color:  rgb(274,48,48)}
+
 .porpora {background-color:rgb(98,8,43)}
+.porpora:hover {border-color:rgb(118,28,63)}
 
 .grande {background-color:rgb(245,245,245)}
 
 .rosso-spento {background-color:rgb(213,1,31)}
+.rosso-spento:hover {border-color:rgb(233,21,51)}
+
 .blu {background-color:rgb(14,36,129)}
+.blu:hover {border-color:rgb(34,56,149)}
+
 .giallo {background-color:rgb(255,216,47)}
+.giallo:hover {border-color:rgb(275,236,67)}
+
 .grigio-azzurro {background-color:rgb(180,208,231)}
+.grigio-azzurro:hover {border-color:rgb(200,228,251)}
 
 
 
@@ -305,7 +319,6 @@ h2 {
     margin-top: 30px;
 }
 
-
 .dropbox-partners {
     margin: 60px 0;
     width: 100%;
@@ -389,22 +402,17 @@ h5 {
     width: 100%;
     margin-top: 100px;
     height: 375px;
-    
-    
 }
 
 .sub-main-col {
     display: block;
     width: calc(100% / 3);
     height: 100%;
-    
 }
-
 
 .sub-main-row { 
     width: 100%;
     height: 50%;
-    
 }
 
 .sub-main-row [src] {
@@ -474,14 +482,18 @@ h5 {
 .quadrato-left {
     width: 50%;
     height: 100%;
-    
+    border: 10px solid transparent;
 }
+
+
 
 .quadrato-right {
     width: 50%;
     height: 100%;
-    
+    border: 10px solid transparent
 }
+
+
 
 .contenuto-central-column {
     height: 100%;
@@ -579,7 +591,6 @@ h6 {
     padding: 25px 0;
     font-size: 14px;
     font-weight: 600;
-    
 }
 
 .freccettina-footer {
