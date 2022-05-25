@@ -385,6 +385,7 @@ h5 {
 .sub-main-row [src] {
     position: relative;
     display: inline-block;
+    filter: invert(1);
 }
 
 /*Posizioni relative img nei blocchi*/
@@ -393,18 +394,21 @@ h5 {
     width: 50%;
     top: 43%;
     left: 25%;
+    
 }
 
 .arizona-university {
     width: 58%;
     top: 30%;
     left: 24%;
+    
 }
 
 .florida-university {
     width: 58%;
     top: 41%;
     left: 21%;
+    
 }
 
 .topps {
